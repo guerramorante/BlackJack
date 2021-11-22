@@ -17,7 +17,7 @@ elif sum(cartas_dealer) > 21:
     print("El dealer pierde")
 
 while sum(cartas_jugador) < 21:
-    medidas_adoptadas = str(input("¿Desea pedir una carta o plantarse?"))
+    medidas_adoptadas = str(input("¿Desea pedir una carta o plantarse?  "))
     if medidas_adoptadas == "hit":
         cartas_jugador.append(random.randint(1,11))
         print("Ahora tiene un total de " + str(sum(cartas_jugador)) + " de estas cartas ", cartas_jugador)
@@ -28,6 +28,7 @@ while sum(cartas_jugador) < 21:
             print("El dealer gana")
         else:
             print("¡Ha ganado!")
+            break
 if sum(cartas_jugador) > 21:
     print("Perdiste, el dealer gana")
 elif sum(cartas_jugador) == 21:
