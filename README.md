@@ -1,7 +1,7 @@
 # BlackJack
 
 
-
+https://github.com/guerramorante/BlackJack.git
 
 'import random 
 cartas_dealer = []
@@ -38,3 +38,9 @@ if sum(cartas_jugador) > 21:
     print("Perdiste, el dealer gana")
 elif sum(cartas_jugador) == 21:
   print("BlackJack, ¡ganador!")'
+  
+  
+  
+  
+  ![Captura_BlackJack](https://user-images.githubusercontent.com/91721714/143055943-ed47ef43-5bb3-4ae7-b050-2ae8315954d7.PNG)
+
